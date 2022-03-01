@@ -48,7 +48,7 @@
         }
 
         &:hover {
-            box-shadow: 0 0 25px #dfdcdc;
+            box-shadow: 0 0 25px  var(--hover-color);
         }
 
         @media screen and (min-width: 2000px) {

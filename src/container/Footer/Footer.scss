@@ -8,6 +8,10 @@
     }
 }
 
+#contact {
+    background-color: var(--primary-color);
+}
+
 .app__footer-cards {
     width: 60%;
     display: flex;
@@ -26,7 +30,7 @@
         padding: 1rem;
         border-radius: 10px;
         cursor: pointer;
-        background-color: #fef4f5;
+        background-color: var(--white-color);
         transition: all 0.3s ease-in-out;
 
         img {
@@ -45,7 +49,7 @@
         }
 
         &:hover {
-            box-shadow: 0 0 25px #fef4f5;
+            box-shadow: 0 0 25px var(--white-color);
         }
 
         @media screen and (max-width: 450px) {
@@ -59,11 +63,11 @@
 }
 
 .app__footer-cards .app__footer-card:last-child {
-    background-color: #f2f7fb;
+    // background-color: #b3d6f3;
 }
 
 .app__footer-cards .app__footer-card:last-child:hover {
-    box-shadow: 0 0 25px #f2f7fb;
+    // box-shadow: 0 0 25px #f2f7fb;
 }
 
 .app__footer-form {
@@ -76,7 +80,7 @@
         margin: 0.75rem 0;
         border-radius: 10px;
         cursor: pointer;
-        background-color: var(--primary-color);
+        background-color: var(--white-color);
         transition: all 0.3s ease-in-out;
 
         input,
@@ -85,7 +89,7 @@
             padding: 0.95rem;
             border: none;
             border-radius: 7px;
-            background-color: var(--primary-color);
+            background-color: var(--white-color);
             font-family: var(--font-base);
             color: var(--secondary-color);
             outline: none;
@@ -106,7 +110,7 @@
         border: none;
         background-color: var(--secondary-color);
         font-weight: 500;
-        color: var(--white-color);
+        color: #fff;
         outline: none;
         margin: 2rem 0 0 0;
         font-family: var(--font-base);
@@ -114,7 +118,7 @@
         cursor: pointer;
 
         &:hover {
-            background-color: #2430af;
+            background-color: rgba(220, 20, 60, 0.685);
         }
     }
 

@@ -15,8 +15,8 @@
     .app__work-filter-item {
         padding: .5rem 1rem;
         border-radius: .5rem;
-        background-color: #fff;
-        color: #000;
+        background-color: var(--white-color);
+        color: var(--black-color);
         font-weight: 800;
         cursor: pointer;
         margin: 0.5rem;
@@ -50,7 +50,7 @@
         margin: 2rem;
         padding: 1rem;
         border-radius: .5rem;
-        background-color: rgb(238, 238, 238);
+        background-color: var(--white-color);
         color: #000;
         cursor: pointer;
         transition: all .3s ease;
@@ -118,6 +118,7 @@
             width: 50%;
             height: 50%;
             color: var(--white-color);
+            color: #fff;
         }
     }
 
@@ -146,7 +147,7 @@
         position: absolute;
         padding: .5rem 1rem;
         border-radius: 10px;
-        background-color: #fff;
+        background-color:var(--white-color);
         top: -25px;
     }
 }
